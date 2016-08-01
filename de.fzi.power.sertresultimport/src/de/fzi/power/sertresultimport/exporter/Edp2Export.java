@@ -48,8 +48,8 @@ import de.fzi.power.sertresultimport.data.WorkloadResultData;
 public class Edp2Export implements IExport {
 
 	private static final String METRIC_SPEC_MODELS = "pathmap://METRIC_SPEC_MODELS/models/commonMetrics.metricspec";
-	private final MeasuringpointFactory MEASURING_POINT_FACTORY = MeasuringpointFactory.eINSTANCE;
-	private final ExperimentDataFactory EXPERIMENT_DATA_FACTORY = ExperimentDataFactory.eINSTANCE;
+	private static final MeasuringpointFactory MEASURING_POINT_FACTORY = MeasuringpointFactory.eINSTANCE;
+	private static final ExperimentDataFactory EXPERIMENT_DATA_FACTORY = ExperimentDataFactory.eINSTANCE;
 
 	private Resource resource;
 	private ExperimentGroup group;
@@ -186,7 +186,6 @@ public class Edp2Export implements IExport {
 			mPoint.setMeasuringPoint(type.getName());
 			mPoint.setMeasuringPointRepository(measuringPointRepo);
 			group.getMeasuringPointRepositories().add(measuringPointRepo);
-			descr.setName(type.getName());
 			final MeasuringType mType = EXPERIMENT_DATA_FACTORY.createMeasuringType(mPoint, descr);
 			mType.setExperimentGroup(group);
 			typeMap.put(type.getUnit(), mType);

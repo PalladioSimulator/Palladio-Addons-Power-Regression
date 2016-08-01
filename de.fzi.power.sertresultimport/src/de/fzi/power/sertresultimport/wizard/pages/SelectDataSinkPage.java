@@ -13,7 +13,7 @@ import org.eclipse.swt.widgets.Label;
 /**
  * This pages lets the user select one of three data sinks to which the SERT
  * results can be exported. This class is heavily based on
- * {@link de.fzi.power.sertresultimport.ui.wizards.datasource.SelectDataSourceTypePage}
+ * {@link org.palladiosimulator.edp2.ui.wizards.datasource.SelectDataSourceTypePage}
  * .
  * 
  * @author Daniel Hassler
