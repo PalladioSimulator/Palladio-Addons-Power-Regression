@@ -111,5 +111,9 @@
 <unit id="de.uka.ipd.sdq.workflow.feature.core.feature.group" version="2.2.3.201709282207"/>
 <repository location="https://sdqweb.ipd.kit.edu/eclipse/workflowengine/nightly/"/>
 </location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+<unit id="org.apache.commons.lang3" version="3.1.0.v201403281430"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20190602212107/repository"/>
+</location>
 </locations>
 </target>
