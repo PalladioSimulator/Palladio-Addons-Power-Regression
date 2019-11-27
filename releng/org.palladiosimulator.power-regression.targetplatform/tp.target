@@ -3,6 +3,7 @@
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release" refresh="true">
 <unit id="org.palladiosimulator.edp2.feature.feature.group" version="1.0.0.201712071336"/>
+<unit id="org.palladiosimulator.edp2.filter.additional.feature.feature.group" version="1.0.0.201901290240"/>
 <repository location="https://updatesite.palladio-simulator.com/palladio-qual-edp2/releases/latest"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly" refresh="true">
