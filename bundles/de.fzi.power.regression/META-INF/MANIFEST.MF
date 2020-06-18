@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EDP2 Regression Derivation
 Bundle-SymbolicName: de.fzi.power.regression
-Bundle-Version: 4.2.0.qualifier
+Bundle-Version: 4.3.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.palladiosimulator.edp2;bundle-version="2.0.0",
  org.vedantatree.expressionoasis,
