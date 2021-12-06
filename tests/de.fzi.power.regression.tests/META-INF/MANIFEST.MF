@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Regression Tests
 Bundle-SymbolicName: de.fzi.power.regression.tests
-Bundle-Version: 5.0.0.qualifier
+Bundle-Version: 5.1.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.junit,
- de.fzi.power.regression;bundle-version="5.0.0",
- de.fzi.power.regression.r;bundle-version="5.0.0"
+ de.fzi.power.regression;bundle-version="5.1.0",
+ de.fzi.power.regression.r;bundle-version="5.1.0"
 Export-Package: de.fzi.power.regression.tests
